@@ -1,68 +1,99 @@
 html {
   box-sizing: border-box;
-  background-color: #c9b5ab
+  background-color: #c9b5ab;
 }
 
-h1 {
-  font: sans-serif bold 1.5
-  color: #3f1622
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 
-h1 + p {
-  font: sans-serif 1.25
-  color: #8f2440
+h1, h2 {
+  font-style: normal;
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  color: #3f1622;
+}
+
+header nav li {
+  font-style: normal;
+  font-family: sans-serif;
+  font-size: 1.25rem;
+  color: #8f2440;
 }
 
 caption {
+  font-style: italic;
   text-align: center;
-  font: serif italic 1.25rem
-  color: #222
+  font-family: serif;
+  font-size: 1.25rem;
+  color: #222;
 }
 
 main + p {
-  font: serif normal
-  color: #222
+  font-style: normal;
+  font-family: serif;
+  font-size: 1.25rem;
+  color: #222;
 }
 
 .datetime {
-  font: serif bold
-  color: #222
+  font-style: normal;
+  font-family: serif;
+  font-size: 1.25rem;
+  color: #222;
 }
 
 blockquote {
-  font: serif bold 1.5rem
-  color: #222
+  font-style: italic;
+  font-family: serif;
+  font-size: 1.5rem;
+  color: #222;
 }
 
 cite {
-  font: serif normal 0.08rem
-  color: #222
+  font-style: italic;
+  font-family: serif;
+  font-size: 0.8rem;
+  color: #222;
 }
 
-section + h2 ul {
-  font: serif normal 1.25rem
-  color: #222
+section nav ul {
+  font-style: normal;
+  font-family: serif;
+  font-size: 1.25rem;
+  color: #222;
 }
 
 h2 + p {
-  font: serif italic 1.25rem
-  color: #222
+  font-style: italic;
+  font-family: serif;
+  font-size: 1.25rem;
+  color: #222;
 }
 
 dt {
-  font: serif bold
-  color: #222
+  font-style: normal;
+  font-family: serif;
+  font-size: 1.25rem;
+  color: #222;
 }
 
 aside + h2 ul {
-  font: serif normal 0.08rem
-  color: #222
+  font-style: normal;
+  font-family: serif;
+  font-size: 0.8rem;
+  color: #222;
 }
 
 footer {
-  font: serif normal 0.08rem
+  font-style: normal;
+  font-family: serif;
+  font-size: 0.8rem;
 }
+
 [href^="http"] {
-  font: serif normal
-  color: #8f2440
+  font-style: normal;
+  font-family: serif;
+  font-size: 0.8rem;
+  color: #8f2440;
 }
