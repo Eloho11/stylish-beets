@@ -1,0 +1,68 @@
+html {
+  box-sizing: border-box;
+  background-color: #c9b5ab
+}
+
+h1 {
+  font: sans-serif bold 1.5
+  color: #3f1622
+}
+
+h1 + p {
+  font: sans-serif 1.25
+  color: #8f2440
+}
+
+caption {
+  text-align: center;
+  font: serif italic 1.25rem
+  color: #222
+}
+
+main + p {
+  font: serif normal
+  color: #222
+}
+
+.datetime {
+  font: serif bold
+  color: #222
+}
+
+blockquote {
+  font: serif bold 1.5rem
+  color: #222
+}
+
+cite {
+  font: serif normal 0.08rem
+  color: #222
+}
+
+section + h2 ul {
+  font: serif normal 1.25rem
+  color: #222
+}
+
+h2 + p {
+  font: serif italic 1.25rem
+  color: #222
+}
+
+dt {
+  font: serif bold
+  color: #222
+}
+
+aside + h2 ul {
+  font: serif normal 0.08rem
+  color: #222
+}
+
+footer {
+  font: serif normal 0.08rem
+}
+[href^="http"] {
+  font: serif normal
+  color: #8f2440
+}
